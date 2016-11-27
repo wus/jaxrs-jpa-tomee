@@ -1,0 +1,7 @@
+.DS_Store
+.settings/
+.distribution
+.project
+logs/
+target/
+.classpath
