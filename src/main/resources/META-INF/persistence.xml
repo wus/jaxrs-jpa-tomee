@@ -6,7 +6,7 @@
 	<persistence-unit name="coupon" transaction-type="JTA">
 		<description>test</description>
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<jta-data-source>java:jboss/datasources/CouponDS</jta-data-source>
+		<jta-data-source>java:openejb/Resource/couponDS</jta-data-source>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>
 			<!--Hibernate properties -->
